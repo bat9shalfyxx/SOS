@@ -1,4 +1,5 @@
 @import url(./reset.css);
+@import url(./media.css);
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;700&display=swap");
 :root {
@@ -9,9 +10,13 @@ html {
 }
 body {
     font-family: "Open Sans", "Bebas Neue", sans-serif;
+    background-color: black;
     text-align: center;
 }
-
+.container {
+    max-width: 1800px;
+    margin: 0 auto;
+}
 .header,
 .main,
 .footer {
@@ -168,8 +173,8 @@ section {
         width: 700px;
     }
 }
-.about-content {
-}
+/* .about-content {
+} */
 .content-text {
     position: relative;
     text-align: justify;
@@ -227,8 +232,8 @@ section {
     left: 40px;
     top: 70px;
 }
-.features-el::before {
-}
+/* .features-el::before {
+} */
 
 /* Sys Reqs */
 .requirements {
