@@ -5,14 +5,16 @@ import Features from "./components/Features";
 import Quotes from "./components/Quotes";
 import Requirements from "./components/Requirements";
 import Footer from "./components/Footer";
+import Main from "./components/Main";
 
 function App() {
 
   return (
     <div className="container">
-      <Header/>
+      <Header />
 
       <Routes>
+        <Route path="/" element={<Main/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/features" element={<Features/>} />
         <Route path="/requirements" element={<Requirements/>} />
@@ -24,4 +26,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

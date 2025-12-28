@@ -106,13 +106,16 @@ section {
     display: inline-flex;
 }
 /* Header */
+header {
+    padding: 30px;
+}
 .header {
+    padding-top: 220px !important;
     padding: 20px 120px;
     background-image: linear-gradient(to top, black, 30%, transparent), url("../img/bg-img/bg_1.png");
 }
 .header-nav {
     font-family: "Open Sans";
-    margin-bottom: 250px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
